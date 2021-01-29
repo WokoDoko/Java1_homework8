@@ -24,6 +24,31 @@ public class Frame extends JFrame {
             textField.setText("Error");
         else if (textField.getText().contains("//"))
             textField.setText("Error");
+        else if (textField.getText().contains("+-"))
+            textField.setText("Error");
+        else if (textField.getText().contains("+*"))
+            textField.setText("Error");
+        else if (textField.getText().contains("+/"))
+            textField.setText("Error");
+        else if (textField.getText().contains("-+"))
+            textField.setText("Error");
+        else if (textField.getText().contains("-*"))
+            textField.setText("Error");
+        else if (textField.getText().contains("-/"))
+            textField.setText("Error");
+        else if (textField.getText().contains("*+"))
+            textField.setText("Error");
+        else if (textField.getText().contains("*-"))
+            textField.setText("Error");
+        else if (textField.getText().contains("*/"))
+            textField.setText("Error");
+        else if (textField.getText().contains("/+"))
+            textField.setText("Error");
+        else if (textField.getText().contains("/-"))
+            textField.setText("Error");
+        else if (textField.getText().contains("/*"))
+            textField.setText("Error");
+
     }
 
     public void square (ActionEvent event) {
